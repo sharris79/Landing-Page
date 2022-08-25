@@ -139,9 +139,30 @@ img {
     justify-content: center;
     align-items: center;
     padding:50px;
+    color:white;
 }
 .container {
     background-color: #3882F6;
     padding: 20px 30px;
     display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+    border-radius: 5px;
 }
+
+.container button {
+    color:white;
+    background-color: #3882F6;
+    border-color:rgb(244, 240, 240);
+    height: 25px;
+    width:100px;
+    border-radius: 5px;
+}
+
+.class {
+    font-weight:bold;
+    font-size:20px;
+}
+
+/*copyright*/
