@@ -79,12 +79,11 @@ h1 {
 }
 
 /*Random Section*/
-img {
-    height:100px;
-}
 
 .image-group p {
     text-align:center;
+    color:grey;
+    width:100px;
 }
 
 .Random-title {
@@ -97,6 +96,12 @@ img {
 .image-group {
     display:flex;
     justify-content: center;
+    gap:40px;
+}
+
+img {
+    height:100px;
+    flex:1;
 }
 
 .balls, .frisby, .plush, .stick {
