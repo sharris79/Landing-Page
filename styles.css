@@ -73,19 +73,20 @@ h1 {
     margin-top:8px;
 }
 
-.dog {
+img {
     height:200px;
 }
 
 /*Random Section*/
-
+.random {
+    padding:50px;
+}
 .image-group p {
     text-align:center;
     color:grey;
-    width:100px;
 }
 
-.Random-title {
+.random-title {
     text-align:center;
     font-size: 36px;
     font-weight:extra-bold;
@@ -98,11 +99,18 @@ h1 {
     gap:40px;
 }
 
-img {
-    height:100px;
+.random img {
+    width:100px;
     flex:1;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 .balls, .frisby, .plush, .stick {
-    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+/*Quote Section*/
