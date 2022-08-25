@@ -1,0 +1,104 @@
+
+/*Blue Section CSS*/
+.top {
+    background-color:#1F2937;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+}
+
+/*Header CSS*/
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:50px;
+}
+
+.logo {
+    color:white;
+    font-weight: bold;
+    font-size: 24px;
+    font: #F9FAF8;
+}
+
+ol {
+    display:flex;
+    list-style:  none;
+    font-size: 18px;
+    font: #E5E7EB;
+    gap:8px;
+}
+
+a {
+    text-decoration: none;
+    color:white
+}
+
+/*Blue Section Body*/
+.top-body {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+}
+.left-section {
+    display:flex;
+    flex-direction:column;
+    flex:0 1 auto;
+}
+
+h1 {
+    color:white;
+    font-size:48px;
+    font-weight:extra-bold;
+    font:#F9FAF8;
+    margin:0;
+}
+
+.secondary {
+    font-size:18px;
+    font:#E5E7EB;
+    color:rgb(228, 222, 222);
+    margin:0;
+}
+
+.button-one {
+    background-color: #3882F6;
+    color:white;
+    border:none;
+    height: 25px;
+    width:100px;
+    border-radius: 5px;
+    margin-top:8px;
+}
+
+.dog {
+    height:200px;
+    flex-wrap:wrap;
+}
+
+/*Random Section*/
+img {
+    height:100px;
+}
+
+.image-group p {
+    text-align:center;
+}
+
+.Random-title {
+    text-align:center;
+    font-size: 36px;
+    font-weight:extra-bold;
+    font: #1F2937;
+}
+
+.image-group {
+    display:flex;
+    justify-content: center;
+}
+
+.balls, .frisby, .plush, .stick {
+    text-align: center;
+}
