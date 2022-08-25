@@ -166,3 +166,12 @@ img {
 }
 
 /*copyright*/
+.copyright-container {
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    font-size:10px;
+}
