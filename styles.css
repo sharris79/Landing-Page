@@ -29,7 +29,7 @@ ol {
     list-style:  none;
     font-size: 18px;
     color: #E5E7EB;
-    gap:8px;
+    gap:15px;
 }
 
 a {
@@ -40,14 +40,14 @@ a {
 /*Blue Section Body*/
 .top-body {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap:15px;
+    gap:30px;
 }
 .left-section {
     display:flex;
     flex-direction:column;
-    flex:0 1 auto;
+   /* flex:0 1 auto;*/
 }
 
 h1 {
@@ -83,7 +83,8 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:50px;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 .image-group p {
     text-align:center;
@@ -98,12 +99,13 @@ img {
 
 .image-group {
     display:flex;
-    justify-content: center;
-    gap:40px;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    gap:30px;
 }
 
 .random img {
-    width:100px;
+    width:150px;
     flex:1;
     border: 3px solid #3882F6;
     border-radius: 10px;
@@ -114,6 +116,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:150px;
 }
 
 /*Quote Section*/
