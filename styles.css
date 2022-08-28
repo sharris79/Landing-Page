@@ -1,3 +1,6 @@
+body {
+    margin:0px;
+}
 
 /*Blue Section CSS*/
 .top {
@@ -76,6 +79,10 @@ img {
 
 /*Random Section*/
 .random {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding:50px;
 }
 .image-group p {
@@ -84,7 +91,6 @@ img {
 }
 
 .random-title {
-    text-align:center;
     font-size: 36px;
     font-weight:extra-bold;
     color: #1F2937;
